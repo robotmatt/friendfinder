@@ -1,0 +1,27 @@
+{
+  "name": "friendfinder",
+  "version": "0.0.1",
+  "description": "Find the best friends",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robotmatt/friendfinder.git"
+  },
+  "author": "Matt Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robotmatt/friendfinder/issues"
+  },
+  "homepage": "https://github.com/robotmatt/friendfinder#readme"
+}
